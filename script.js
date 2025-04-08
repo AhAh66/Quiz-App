@@ -28,37 +28,37 @@ let questions = [
         possibleAnswer: ["Python", "Java", "C++", "JavaScript"],
         correctAnswer: "JavaScript"
     }
-    // },
-    // {
-    //     topic: "History of Computers",
-    //     question: "What was the first commercially available personal computer?",
-    //     possibleAnswer: ["Apple I", "IBM PC", "Commodore 64", "Altair 8800"],
-    //     correctAnswer: "Altair 8800"
-    // },
-    // {
-    //     topic: "Cybersecurity",
-    //     question: "What type of malware locks a user’s files and demands payment?",
-    //     possibleAnswer: ["Trojan", "Worm", "Ransomware", "Spyware"],
-    //     correctAnswer: "Ransomware"
-    // },
-    // {
-    //     topic: "Operating Systems",
-    //     question: "Which company developed the Windows operating system?",
-    //     possibleAnswer: ["Apple", "Microsoft", "IBM", "Google"],
-    //     correctAnswer: "Microsoft"
-    // },
-    // {
-    //     topic: "Networking",
-    //     question: "What is the standard protocol used for sending emails?",
-    //     possibleAnswer: ["HTTP", "SMTP", "FTP", "TCP"],
-    //     correctAnswer: "SMTP"
-    // },
-    // {
-    //     topic: "Fun Fact",
-    //     question: "Which tech company started in a garage?",
-    //     possibleAnswer: ["Google", "Apple", "Amazon", "Facebook"],
-    //     correctAnswer: "Apple"
-    // }
+    ,
+    {
+        topic: "History of Computers",
+        question: "What was the first commercially available personal computer?",
+        possibleAnswer: ["Apple I", "IBM PC", "Commodore 64", "Altair 8800"],
+        correctAnswer: "Altair 8800"
+    },
+    {
+        topic: "Cybersecurity",
+        question: "What type of malware locks a user’s files and demands payment?",
+        possibleAnswer: ["Trojan", "Worm", "Ransomware", "Spyware"],
+        correctAnswer: "Ransomware"
+    },
+    {
+        topic: "Operating Systems",
+        question: "Which company developed the Windows operating system?",
+        possibleAnswer: ["Apple", "Microsoft", "IBM", "Google"],
+        correctAnswer: "Microsoft"
+    },
+    {
+        topic: "Networking",
+        question: "What is the standard protocol used for sending emails?",
+        possibleAnswer: ["HTTP", "SMTP", "FTP", "TCP"],
+        correctAnswer: "SMTP"
+    },
+    {
+        topic: "Fun Fact",
+        question: "Which tech company started in a garage?",
+        possibleAnswer: ["Google", "Apple", "Amazon", "Facebook"],
+        correctAnswer: "Apple"
+    }
 ];
 const container=document.querySelector(".container")
 const progress=document.getElementById("prograss"); //level
