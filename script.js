@@ -89,7 +89,7 @@ for(let i=0;i<=index;i++){
 
 // Questions 
 questionContainer.innerHTML=
-`<p>${questions[index].topic}</p>
+`<h5>${questions[index].topic}</h5>
 
 <p>${questions[index].question}</p>`
 
